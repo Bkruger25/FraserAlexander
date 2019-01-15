@@ -1,0 +1,614 @@
+{
+  "layerInfos": [
+    {
+      "name": "Tailings Structures Bottom Right",
+      "id": "FAT_TailingsSites_OperationalLayers_20150413_9090",
+      "layer": {
+        "url": "http://ghprodsrv01.giscoe.com/arcgis/rest/services/FraserAlexanderTailings/FAT_TailingsSites_OperationalLayers_20150413/FeatureServer/1",
+        "fields": [
+          {
+            "name": "OID",
+            "alias": "oid",
+            "show": false
+          },
+          {
+            "name": "Site_TSF_Name",
+            "alias": "site_tsf_name",
+            "show": true
+          },
+          {
+            "name": "ContractNumber",
+            "alias": "contractnumber",
+            "show": true
+          },
+          {
+            "name": "Complex",
+            "alias": "complex",
+            "show": true
+          },
+          {
+            "name": "Plant",
+            "alias": "plant",
+            "show": true
+          },
+          {
+            "name": "Mine",
+            "alias": "mine",
+            "show": true
+          },
+          {
+            "name": "Client",
+            "alias": "client",
+            "show": true
+          },
+          {
+            "name": "Parent",
+            "alias": "parent",
+            "show": true
+          },
+          {
+            "name": "Country",
+            "alias": "country",
+            "show": true
+          },
+          {
+            "name": "Business_Unit",
+            "alias": "business_unit",
+            "show": true
+          },
+          {
+            "name": "Business_Area",
+            "alias": "business_area",
+            "show": true
+          },
+          {
+            "name": "Business_Unit_Manager",
+            "alias": "business_unit_manager",
+            "show": true
+          },
+          {
+            "name": "Business_Area_Manager",
+            "alias": "business_area_manager",
+            "show": true
+          },
+          {
+            "name": "Contracts_ProductionManager",
+            "alias": "contracts_productionmanager",
+            "show": true
+          },
+          {
+            "name": "SieManager_OpsSupervisor",
+            "alias": "siemanager_opssupervisor",
+            "show": true
+          },
+          {
+            "name": "DamOwner",
+            "alias": "damowner",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsCentroid_S_N",
+            "alias": "sitecoordscentroid_s_n",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsCentroid_SorN",
+            "alias": "sitecoordscentroid_sorn",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsCentroid_E_W",
+            "alias": "sitecoordscentroid_e_w",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsCentroid_EorW",
+            "alias": "sitecoordscentroid_eorw",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsTopLeft_S_N",
+            "alias": "sitecoordstopleft_s_n",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsTopLeft_SorN",
+            "alias": "sitecoordstopleft_sorn",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsTopLeft_E_W",
+            "alias": "sitecoordstopleft_e_w",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsTopLeft_EorW",
+            "alias": "sitecoordstopleft_eorw",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsBottomRight_S_N",
+            "alias": "sitecoordsbottomright_s_n",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsBottomRight_SorN",
+            "alias": "sitecoordsbottomright_sorn",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsBottomRight_E_W",
+            "alias": "sitecoordsbottomright_e_w",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsBottomRight_EorW",
+            "alias": "sitecoordsbottomright_eorw",
+            "show": true
+          },
+          {
+            "name": "Product_Type",
+            "alias": "product_type",
+            "show": true
+          },
+          {
+            "name": "PlannedTonnage_WaterTreatmentVo",
+            "alias": "plannedtonnage_watertreatmentvo",
+            "show": true
+          },
+          {
+            "name": "Centroid_S_N",
+            "alias": "centroid_s_n",
+            "show": true
+          },
+          {
+            "name": "Centroid_E_W",
+            "alias": "centroid_e_w",
+            "show": true
+          },
+          {
+            "name": "TopLeft_S_N",
+            "alias": "topleft_s_n",
+            "show": true
+          },
+          {
+            "name": "TopLeft_E_W",
+            "alias": "topleft_e_w",
+            "show": true
+          },
+          {
+            "name": "BottomRight_S_N",
+            "alias": "bottomright_s_n",
+            "show": true
+          },
+          {
+            "name": "BottomRight_E_W",
+            "alias": "bottomright_e_w",
+            "show": true
+          },
+          {
+            "name": "DDLat",
+            "alias": "ddlat",
+            "show": true
+          },
+          {
+            "name": "DDLon",
+            "alias": "ddlon",
+            "show": true
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Tailings Structures Centroid",
+      "id": "FAT_TailingsSites_OperationalLayers_20150413_313",
+      "layer": {
+        "url": "http://ghprodsrv01.giscoe.com/arcgis/rest/services/FraserAlexanderTailings/FAT_TailingsSites_OperationalLayers_20150413/FeatureServer/2",
+        "fields": [
+          {
+            "name": "OID",
+            "alias": "oid",
+            "show": false
+          },
+          {
+            "name": "Site_TSF_Name",
+            "alias": "site_tsf_name",
+            "show": true
+          },
+          {
+            "name": "ContractNumber",
+            "alias": "contractnumber",
+            "show": true
+          },
+          {
+            "name": "Complex",
+            "alias": "complex",
+            "show": true
+          },
+          {
+            "name": "Plant",
+            "alias": "plant",
+            "show": true
+          },
+          {
+            "name": "Mine",
+            "alias": "mine",
+            "show": true
+          },
+          {
+            "name": "Client",
+            "alias": "client",
+            "show": true
+          },
+          {
+            "name": "Parent",
+            "alias": "parent",
+            "show": true
+          },
+          {
+            "name": "Country",
+            "alias": "country",
+            "show": true
+          },
+          {
+            "name": "Business_Unit",
+            "alias": "business_unit",
+            "show": true
+          },
+          {
+            "name": "Business_Area",
+            "alias": "business_area",
+            "show": true
+          },
+          {
+            "name": "Business_Unit_Manager",
+            "alias": "business_unit_manager",
+            "show": true
+          },
+          {
+            "name": "Business_Area_Manager",
+            "alias": "business_area_manager",
+            "show": true
+          },
+          {
+            "name": "Contracts_ProductionManager",
+            "alias": "contracts_productionmanager",
+            "show": true
+          },
+          {
+            "name": "SieManager_OpsSupervisor",
+            "alias": "siemanager_opssupervisor",
+            "show": true
+          },
+          {
+            "name": "DamOwner",
+            "alias": "damowner",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsCentroid_S_N",
+            "alias": "sitecoordscentroid_s_n",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsCentroid_SorN",
+            "alias": "sitecoordscentroid_sorn",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsCentroid_E_W",
+            "alias": "sitecoordscentroid_e_w",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsCentroid_EorW",
+            "alias": "sitecoordscentroid_eorw",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsTopLeft_S_N",
+            "alias": "sitecoordstopleft_s_n",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsTopLeft_SorN",
+            "alias": "sitecoordstopleft_sorn",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsTopLeft_E_W",
+            "alias": "sitecoordstopleft_e_w",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsTopLeft_EorW",
+            "alias": "sitecoordstopleft_eorw",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsBottomRight_S_N",
+            "alias": "sitecoordsbottomright_s_n",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsBottomRight_SorN",
+            "alias": "sitecoordsbottomright_sorn",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsBottomRight_E_W",
+            "alias": "sitecoordsbottomright_e_w",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsBottomRight_EorW",
+            "alias": "sitecoordsbottomright_eorw",
+            "show": true
+          },
+          {
+            "name": "Product_Type",
+            "alias": "product_type",
+            "show": true
+          },
+          {
+            "name": "PlannedTonnage_WaterTreatmentVo",
+            "alias": "plannedtonnage_watertreatmentvo",
+            "show": true
+          },
+          {
+            "name": "Centroid_S_N",
+            "alias": "centroid_s_n",
+            "show": true
+          },
+          {
+            "name": "Centroid_E_W",
+            "alias": "centroid_e_w",
+            "show": true
+          },
+          {
+            "name": "TopLeft_S_N",
+            "alias": "topleft_s_n",
+            "show": true
+          },
+          {
+            "name": "TopLeft_E_W",
+            "alias": "topleft_e_w",
+            "show": true
+          },
+          {
+            "name": "BottomRight_S_N",
+            "alias": "bottomright_s_n",
+            "show": true
+          },
+          {
+            "name": "BottomRight_E_W",
+            "alias": "bottomright_e_w",
+            "show": true
+          },
+          {
+            "name": "DDLat",
+            "alias": "ddlat",
+            "show": true
+          },
+          {
+            "name": "DDLon",
+            "alias": "ddlon",
+            "show": true
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Tailings Structures Top Left",
+      "id": "FAT_TailingsSites_OperationalLayers_20150413_3486",
+      "layer": {
+        "url": "http://ghprodsrv01.giscoe.com/arcgis/rest/services/FraserAlexanderTailings/FAT_TailingsSites_OperationalLayers_20150413/FeatureServer/3",
+        "fields": [
+          {
+            "name": "OID",
+            "alias": "oid",
+            "show": false
+          },
+          {
+            "name": "Site_TSF_Name",
+            "alias": "site_tsf_name",
+            "show": true
+          },
+          {
+            "name": "ContractNumber",
+            "alias": "contractnumber",
+            "show": true
+          },
+          {
+            "name": "Complex",
+            "alias": "complex",
+            "show": true
+          },
+          {
+            "name": "Plant",
+            "alias": "plant",
+            "show": true
+          },
+          {
+            "name": "Mine",
+            "alias": "mine",
+            "show": true
+          },
+          {
+            "name": "Client",
+            "alias": "client",
+            "show": true
+          },
+          {
+            "name": "Parent",
+            "alias": "parent",
+            "show": true
+          },
+          {
+            "name": "Country",
+            "alias": "country",
+            "show": true
+          },
+          {
+            "name": "Business_Unit",
+            "alias": "business_unit",
+            "show": true
+          },
+          {
+            "name": "Business_Area",
+            "alias": "business_area",
+            "show": true
+          },
+          {
+            "name": "Business_Unit_Manager",
+            "alias": "business_unit_manager",
+            "show": true
+          },
+          {
+            "name": "Business_Area_Manager",
+            "alias": "business_area_manager",
+            "show": true
+          },
+          {
+            "name": "Contracts_ProductionManager",
+            "alias": "contracts_productionmanager",
+            "show": true
+          },
+          {
+            "name": "SieManager_OpsSupervisor",
+            "alias": "siemanager_opssupervisor",
+            "show": true
+          },
+          {
+            "name": "DamOwner",
+            "alias": "damowner",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsCentroid_S_N",
+            "alias": "sitecoordscentroid_s_n",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsCentroid_SorN",
+            "alias": "sitecoordscentroid_sorn",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsCentroid_E_W",
+            "alias": "sitecoordscentroid_e_w",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsCentroid_EorW",
+            "alias": "sitecoordscentroid_eorw",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsTopLeft_S_N",
+            "alias": "sitecoordstopleft_s_n",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsTopLeft_SorN",
+            "alias": "sitecoordstopleft_sorn",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsTopLeft_E_W",
+            "alias": "sitecoordstopleft_e_w",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsTopLeft_EorW",
+            "alias": "sitecoordstopleft_eorw",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsBottomRight_S_N",
+            "alias": "sitecoordsbottomright_s_n",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsBottomRight_SorN",
+            "alias": "sitecoordsbottomright_sorn",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsBottomRight_E_W",
+            "alias": "sitecoordsbottomright_e_w",
+            "show": true
+          },
+          {
+            "name": "SiteCoOrdsBottomRight_EorW",
+            "alias": "sitecoordsbottomright_eorw",
+            "show": true
+          },
+          {
+            "name": "Product_Type",
+            "alias": "product_type",
+            "show": true
+          },
+          {
+            "name": "PlannedTonnage_WaterTreatmentVo",
+            "alias": "plannedtonnage_watertreatmentvo",
+            "show": true
+          },
+          {
+            "name": "Centroid_S_N",
+            "alias": "centroid_s_n",
+            "show": true
+          },
+          {
+            "name": "Centroid_E_W",
+            "alias": "centroid_e_w",
+            "show": true
+          },
+          {
+            "name": "TopLeft_S_N",
+            "alias": "topleft_s_n",
+            "show": true
+          },
+          {
+            "name": "TopLeft_E_W",
+            "alias": "topleft_e_w",
+            "show": true
+          },
+          {
+            "name": "BottomRight_S_N",
+            "alias": "bottomright_s_n",
+            "show": true
+          },
+          {
+            "name": "BottomRight_E_W",
+            "alias": "bottomright_e_w",
+            "show": true
+          },
+          {
+            "name": "DDLat",
+            "alias": "ddlat",
+            "show": true
+          },
+          {
+            "name": "DDLon",
+            "alias": "ddlon",
+            "show": true
+          }
+        ]
+      },
+      "show": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false
+}
